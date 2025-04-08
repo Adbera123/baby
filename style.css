@@ -98,4 +98,40 @@ body {
   bottom: 30px;
   text-align: center;
   width: 100%;
-  opacity:
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.telegram-link-wrapper.show {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .troll-text {
+    font-size: 11vw;
+    gap: 1vw;
+    margin-top: -8vh;
+  }
+
+  .letter {
+    text-shadow: 3px 3px 6.25px grey, -3px -3px 6.25px whitesmoke !important;
+  }
+
+  .start-button,
+  .telegram-button {
+    font-size: 12px;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .loader {
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    margin-top: 15px;
+  }
+
+  .telegram-link-wrapper {
+    bottom: 10px;
+  }
+}
