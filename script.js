@@ -7,7 +7,7 @@ startBtn.addEventListener("click", () => {
   startBtn.style.display = "none";
   loader.style.display = "block";
 
-  const audio = new Audio("babulky.mp3"); // Замінити на реальний файл
+  const audio = new Audio("baby.mp3"); // Замінити на реальний файл
   audio.loop = true;
   audio.volume = 1;
 
